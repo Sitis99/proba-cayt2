@@ -3,8 +3,6 @@ button {
     background-color: Orange;
   }
   
-  animation: change-bg 10s step-end infinite; 
-  
   button:active::after {
   animation: change-bg 10s step-end infinite; 
   
