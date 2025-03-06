@@ -6,8 +6,7 @@ button {
   animation: change-bg 10s step-end infinite; 
   
   button:active::after {
-  animation: change-bg 10s step-end infinite;   /* Ниже вставьте скопированный код */
-  
+  animation: change-bg 10s step-end infinite; 
   
   }
   
