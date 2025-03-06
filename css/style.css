@@ -1,5 +1,13 @@
-body{
-   
-    background-color: "fff";
-    color: #2a2a2a;
-}
+button {
+    color: white;
+    background-color: Orange;
+  }
+  
+  /* Селектор можно перевести как «после зажатия кнопки»  */
+  
+  button:active::after {
+  animation: change-bg 10s step-end infinite;   /* Ниже вставьте скопированный код */
+  
+  
+  }
+  
